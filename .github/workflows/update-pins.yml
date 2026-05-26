@@ -23,7 +23,7 @@ jobs:
       - name: Generate SVG pin cards
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: python profile/scripts/generate-pins.py
+        run: python profile/section/scripts/generate-pins.py
 
       - name: Commit if changed
         run: |
