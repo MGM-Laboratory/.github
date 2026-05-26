@@ -5,6 +5,7 @@ on:
     - cron: '0 4 * * *'   # daily at 04:00 UTC
   workflow_dispatch:
   push:
+    branches: ["main"]
     paths:
       - 'profile/scripts/generate-pins.py'
       - '.github/workflows/update-pins.yml'
