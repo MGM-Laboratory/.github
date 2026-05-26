@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 200" width="1280" height="200" role="img" aria-label="Focus areas">
+  <!--
+    Five "pillar" cards, each tagged with the discipline name and an animated
+    sigil in the discipline's brand color. Cards fade up in stagger.
+  -->
+  <defs>
+    <style>
+      .label  { font-family:'Bricolage Grotesque','Geist',ui-sans-serif,system-ui,sans-serif; font-weight:600; font-size:18px; }
+      .sub    { font-family:'Geist Mono',ui-monospace,monospace; font-weight:500; font-size:10px; letter-spacing:2px; }
+      .card   { stroke:#ececea; stroke-width:1; fill:#fff; }
+      .ink    { fill:#0e1116; }
+      .muted  { fill:#6b7280; }
+    </style>
+  </defs>
+  <rect width="1280" height="200" fill="#ffffff"/>
+
+  <!-- ===== Card 1: WEB — Blue ===== -->
+  <g transform="translate(20 30)" opacity="0">
+    <rect class="card" width="240" height="140" rx="14"/>
+    <g transform="translate(20 22)">
+      <rect width="44" height="44" rx="10" fill="#ECF1FA"/>
+      <g transform="translate(8 8)">
+        <!-- web globe -->
+        <circle cx="14" cy="14" r="12" fill="none" stroke="#3A6DC5" stroke-width="2.25"/>
+        <path d="M2 14 H26 M14 2 C 20 14 20 14 14 26 M14 2 C 8 14 8 14 14 26" fill="none" stroke="#3A6DC5" stroke-width="2.25" stroke-linecap="round"/>
+        <animateTransform attributeName="transform" type="rotate" from="0 14 14" to="360 14 14" dur="14s" repeatCount="indefinite" additive="sum"/>
+      </g>
+    </g>
+    <text class="sub muted" x="20" y="92">01 / FOCUS</text>
+    <text class="label ink" x="20" y="118">Web Engineering</text>
+    <animate attributeName="opacity" from="0" to="1" dur="0.6s" begin="0.1s" fill="freeze"/>
+    <animateTransform attributeName="transform" type="translate" values="20 50; 20 30" dur="0.6s" begin="0.1s" fill="freeze"/>
+  </g>
+
+  <!-- ===== Card 2: MOBILE — Yellow ===== -->
+  <g transform="translate(270 30)" opacity="0">
+    <rect class="card" width="240" height="140" rx="14"/>
+    <g transform="translate(20 22)">
+      <rect width="44" height="44" rx="10" fill="#FEF6E0"/>
+      <g transform="translate(15 8)">
+        <rect width="14" height="28" rx="3" fill="none" stroke="#F7BF33" stroke-width="2.25"/>
+        <circle cx="7" cy="24" r="1.4" fill="#F7BF33"/>
+        <animateTransform attributeName="transform" type="translate" values="15 8; 15 6; 15 8" dur="2s" repeatCount="indefinite"/>
+      </g>
+    </g>
+    <text class="sub muted" x="20" y="92">02 / FOCUS</text>
+    <text class="label ink" x="20" y="118">Mobile Apps</text>
+    <animate attributeName="opacity" from="0" to="1" dur="0.6s" begin="0.25s" fill="freeze"/>
+    <animateTransform attributeName="transform" type="translate" values="270 50; 270 30" dur="0.6s" begin="0.25s" fill="freeze"/>
+  </g>
+
+  <!-- ===== Card 3: GAME — Red ===== -->
+  <g transform="translate(520 30)" opacity="0">
+    <rect class="card" width="240" height="140" rx="14"/>
+    <g transform="translate(20 22)">
+      <rect width="44" height="44" rx="10" fill="#FEE5E5"/>
+      <g transform="translate(8 12)">
+        <rect width="28" height="20" rx="6" fill="none" stroke="#F94141" stroke-width="2.25"/>
+        <circle cx="9"  cy="10" r="1.6" fill="#F94141"/>
+        <circle cx="19" cy="10" r="1.6" fill="#F94141"/>
+        <animateTransform attributeName="transform" type="translate" values="8 12; 8 11; 8 12" dur="1.4s" repeatCount="indefinite"/>
+      </g>
+    </g>
+    <text class="sub muted" x="20" y="92">03 / FOCUS</text>
+    <text class="label ink" x="20" y="118">Game Studios</text>
+    <animate attributeName="opacity" from="0" to="1" dur="0.6s" begin="0.4s" fill="freeze"/>
+    <animateTransform attributeName="transform" type="translate" values="520 50; 520 30" dur="0.6s" begin="0.4s" fill="freeze"/>
+  </g>
+
+  <!-- ===== Card 4: XR/VR/AR — Green ===== -->
+  <g transform="translate(770 30)" opacity="0">
+    <rect class="card" width="240" height="140" rx="14"/>
+    <g transform="translate(20 22)">
+      <rect width="44" height="44" rx="10" fill="#E2F1EA"/>
+      <g transform="translate(8 12)">
+        <path d="M2 4 H26 V14 H18 L14 18 L10 14 H2 Z" fill="none" stroke="#0F8657" stroke-width="2.25" stroke-linejoin="round"/>
+        <circle cx="9"  cy="9" r="1.8" fill="#0F8657"/>
+        <circle cx="19" cy="9" r="1.8" fill="#0F8657"/>
+        <animate attributeName="opacity" values="1;0.6;1" dur="2s" repeatCount="indefinite"/>
+      </g>
+    </g>
+    <text class="sub muted" x="20" y="92">04 / FOCUS</text>
+    <text class="label ink" x="20" y="118">XR · VR · AR</text>
+    <animate attributeName="opacity" from="0" to="1" dur="0.6s" begin="0.55s" fill="freeze"/>
+    <animateTransform attributeName="transform" type="translate" values="770 50; 770 30" dur="0.6s" begin="0.55s" fill="freeze"/>
+  </g>
+
+  <!-- ===== Card 5: UX/HCI — Blue secondary ===== -->
+  <g transform="translate(1020 30)" opacity="0">
+    <rect class="card" width="240" height="140" rx="14"/>
+    <g transform="translate(20 22)">
+      <rect width="44" height="44" rx="10" fill="#ECF1FA"/>
+      <g transform="translate(8 8)">
+        <circle cx="14" cy="14" r="11" fill="none" stroke="#3A6DC5" stroke-width="2.25"/>
+        <circle cx="14" cy="14" r="3"  fill="#3A6DC5"/>
+        <path d="M14 0 V4 M14 24 V28 M0 14 H4 M24 14 H28" stroke="#3A6DC5" stroke-width="2.25" stroke-linecap="round"/>
+        <animateTransform attributeName="transform" type="scale" values="1; 1.06; 1" dur="2.4s" repeatCount="indefinite" additive="sum"/>
+      </g>
+    </g>
+    <text class="sub muted" x="20" y="92">05 / FOCUS</text>
+    <text class="label ink" x="20" y="118">UX &amp; HCI Research</text>
+    <animate attributeName="opacity" from="0" to="1" dur="0.6s" begin="0.7s" fill="freeze"/>
+    <animateTransform attributeName="transform" type="translate" values="1020 50; 1020 30" dur="0.6s" begin="0.7s" fill="freeze"/>
+  </g>
+</svg>
