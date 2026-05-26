@@ -495,23 +495,24 @@ and publish a steady stream of internal libraries, tools, and case studies.
 <!-- =================== FEATURED REPOS =================== -->
 ## <samp>// 05 — Featured work</samp>
 
-> Replace these pin cards with your real repo names after you create them.
-> Each card is interactive — clicking opens the repository on GitHub.
+<p align="center">
+  <samp>// CURRENT WORK · STRAIGHT FROM THE LAB</samp>
+</p>
 
 <p align="center">
-  <a href="https://github.com/MGM-Laboratory">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=MGM-Laboratory&repo=https://github.com/MGM-Laboratory/mgm-atlas-frontend&hide_border=true&title_color=0E1116&text_color=3B4150&icon_color=3A6DC5&bg_color=FFFFFF" />
+  <a href="https://github.com/MGM-Laboratory/mgm-atlas-frontend">
+    <img src="https://raw.githubusercontent.com/MGM-Laboratory/.github/main/profile/pins/mgm-atlas-frontend.svg" alt="mgm-atlas-frontend" width="49%" />
   </a>
-  <a href="https://github.com/MGM-Laboratory">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=MGM-Laboratory&repo=REPLACE_REPO_2&hide_border=true&title_color=0E1116&text_color=3B4150&icon_color=F94141&bg_color=FFFFFF" />
+  <a href="https://github.com/MGM-Laboratory/mgm-asset-library-frontend">
+    <img src="https://raw.githubusercontent.com/MGM-Laboratory/.github/main/profile/pins/mgm-asset-library-frontend.svg" alt="mgm-asset-library-frontend" width="49%" />
   </a>
 </p>
 <p align="center">
-  <a href="https://github.com/MGM-Laboratory">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=MGM-Laboratory&repo=REPLACE_REPO_3&hide_border=true&title_color=0E1116&text_color=3B4150&icon_color=F7BF33&bg_color=FFFFFF" />
+  <a href="https://github.com/MGM-Laboratory/mgm-domain-frontend">
+    <img src="https://raw.githubusercontent.com/MGM-Laboratory/.github/main/profile/pins/mgm-domain-frontend.svg" alt="mgm-domain-frontend" width="49%" />
   </a>
-  <a href="https://github.com/MGM-Laboratory">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=MGM-Laboratory&repo=REPLACE_REPO_4&hide_border=true&title_color=0E1116&text_color=3B4150&icon_color=0F8657&bg_color=FFFFFF" />
+  <a href="https://github.com/MGM-Laboratory/mgm-keycloak-theme">
+    <img src="https://raw.githubusercontent.com/MGM-Laboratory/.github/main/profile/pins/mgm-keycloak-theme.svg" alt="mgm-keycloak-theme" width="49%" />
   </a>
 </p>
 
